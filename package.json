@@ -1,0 +1,16 @@
+{
+  "name": "biomedica-api-designer-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "api-designer": "^0.4.1",
+    "express": "^4.17.1"
+  }
+}
