@@ -2,10 +2,10 @@ const express = require('express');
 var path = require('path');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.static('public'));
-//app.use('/script/bootstrap', express.static(__dirname + '/node_modules/bootstrap/dist/'));
+
 app.use('/angular', express.static(path.join(__dirname , '/node_modules/angular')));
 app.use('/api-designer', express.static(path.join(__dirname + '/node_modules/api-designer/dist')));
 
